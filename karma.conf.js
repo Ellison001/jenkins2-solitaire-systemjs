@@ -35,7 +35,7 @@ module.exports = function (config) {
       "karma-phantomjs-launcher",
       "karma-junit-reporter"
     ],
-
+    reporters: ['progress', 'junit'],
     junitReporter: {
       outputFile: "test_out/unit.xml",
       suite: "unit"
