@@ -1,4 +1,4 @@
-verions: '2'
+version: '2'
 services:
   solitaire:
     build: .
